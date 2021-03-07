@@ -1,0 +1,194 @@
+name: NbEssential
+main: nb.essential.main.Main
+version: "1.~2 pre-release 2 for MC1.13 (1.2 18w7b2)"
+description: "The unique plugin which managed the New Beginning RP Server [fr]"
+author: "MađeShirő ƵÆsora"
+api-version: 1.13
+
+commands:
+  nb:
+    description: The administration's command of the NbEssential's plugin
+    usage: /nb
+    aliases: [nbessential, nbsecurity]
+  back:
+    description: Go back to your previous location
+    usage: /back
+  day:
+    description: Sets the time to day
+    usage: /day
+  night:
+    description: Sets the time to night
+    usage: /night
+  fly:
+    description: Enables or disable the fly mode
+    usage: /fly [player]
+  speed:
+    description: Changes your speed when walking and flying
+    usage: /speed <float> [walk|fly]
+  gm:
+    description: Change your gamemode
+    usage: /gm <mode> [player]
+  permission:
+    description: Manages permissions and groups
+    usage: /permission help [page]
+    aliases: [perm]
+  cbreplace:
+    description: Tool to replace char sequence in a group of commandblocks
+    usage: /cbreplace replace
+    aliases: [cbr]
+  profile:
+    description: Manage player's profile
+    usage: /profile
+    aliases: [nbprofile, login, logout]
+  nickname:
+    description: Manages player's nickname
+    usage: /nickname
+    aliases: [nick]
+  citizens:
+    description: '<test cmd>'
+    usage: /citizens <test number>
+    aliases: [citi, npc]
+  nbsl:
+    description: Manage the Nb Script Language system (NbSL System ©)
+    usage: /nbsl <cmd> [<args>]
+  script:
+    description: Manage script from the Nb Script System
+    usage: /script [<cmd args>]
+  quest:
+    description: Manage quest's script from the Nb Script System
+    usage: /quest [<cmd args>]
+  warp:
+    description: Manage, use warps
+    usage: /warp <create|remove|tp> <name>
+    aliases: [wp, wtp]
+  multiworld:
+    description: Manage, Creates and loads worlds
+    usage: /multiworld help
+    aliases: [mw, mworld]
+  lockdoor:
+    description: Creates or removes Lock doors
+    usage: /lockdoor help
+    aliases: [ld]
+
+permissions:
+  nbessential.*:
+    description: The global permissions to use all NbEssential's commands
+    default: op
+    children:
+      nbessential.fly: true
+      nbessential.back: true
+      nbessential.time: true
+      nbessential.color: true
+      nbessential.speed: true
+      nbessential.warp.*: true
+      nbessential.stick.*: true
+      nbessential.nickname: true
+      nbessential.operator: true
+      nbessential.cbreplace.*: true
+      nbessential.permission.*: true
+      nbessential.multiworld.*: true
+
+  nbessential.time:
+    default: op
+    description: The time change command's permission
+
+  nbessential.nickname:
+    default: op
+    description: The nickname command's permission
+
+  nbessential.speed:
+    default: op
+    description: The speed command's permission
+
+  nbessential.fly:
+    default: op
+    description: The fly command's permission
+
+  nbessential.back:
+    default: op
+    description: The back command's permission
+  nbessential.color:
+    default: op
+    description: Permission to allow player to color string in the chat
+
+  nbessential.warp.*:
+    default: op
+    description: Permission to use warps
+    children:
+      nbessential.warp.tp: true
+      nbessential.warp.create: true
+      nbessential.warp.remove: true
+
+  nbessential.stick.*:
+    default: op
+    description: Permission to get the stick and execute all commands associated
+    children:
+      nbessential.stick: true
+      nbessential.stick.chairs: true
+      nbessential.stick.streetlight: true
+      nbessential.stick.cbreplace: true
+
+  nbessential.permission.*:
+    default: op
+    description: Permission to manage permissions and groups
+    children:
+      nbessential.permission.help: true
+      nbessential.permission.save: true
+      nbessential.permission.reload: true
+      nbessential.permission.group.*: true
+      nbessential.permission.player.*: true
+
+  nbessential.permission.player.*:
+    default: op
+    description: Permission to manage permissions and players' group
+    children:
+      nbessential.permission.player.help: true
+      nbessential.permission.player.set.help: true
+      nbessential.permission.player.set.group: true
+      nbessential.permission.player.set.permission.help: true
+      nbessential.permission.player.set.permission: true
+      nbessential.permission.player.unset.group: true
+      nbessential.permission.player.unset.permission: true
+
+  nbessential.permission.group.*:
+    default: op
+    description: Permission to manage groups permissions and members
+    children:
+      nbessential.permission.group.help: true
+      nbessential.permission.group.create: true
+      nbessential.permission.group.addmember: true
+      nbessential.permission.group.delmember: true
+      nbessential.permission.group.set.prefix: true
+      nbessential.permission.group.set.inherit: true
+      nbessential.permission.group.set.permission: true
+
+  nbessential.script.*:
+    default: op
+    description: 'Permission to manage the NbSL System ©'
+    children:
+      nbessential.script.run: true
+      nbessential.script.help: true
+      nbessential.script.reload: true
+      nbessential.script.interrupt: true
+      nbessential.script.info: true
+
+  nbessential.cbreplace.*:
+    default: op
+    description: Permission to use the /cbr command
+    children:
+      nbessential.stick: true
+      nbessential.stick.cbreplace: true
+      nbessential.cbreplace.help: true
+      nbessential.cbreplace.clear: true
+      nbessential.cbreplace.replace: true
+      nbessential.cbreplace.zconfirm: true
+
+  nbessential.multiworld.*:
+    default: op
+    description: Permission to manage, create or load worlds
+    children:
+      nbessential.multiworld.load: true
+      nbessential.multiworld.create: true
+      nbessential.multiworld.unload: true
+      nbessential.multiworld.property: true
+      nbessential.multiworld.delete: true

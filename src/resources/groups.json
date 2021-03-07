@@ -1,0 +1,12 @@
+{
+  "version": [1,2,0,1],
+  "groups": {
+    "default": {
+      "prefix": "&7[&8default&7]",
+      "inherit": null,
+      "members": [],
+      "permissions": [],
+      "forbiddens": []
+    }
+  }
+}

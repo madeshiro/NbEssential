@@ -1,0 +1,36 @@
+# ------------------ Header ------------------ #
+# NbEssential - player file                    #
+# Format: Yaml                                 #
+# Version: 1.2                                 #
+# >>                                        << #
+# --------------- Information ---------------- #
+# This file is the player file which contains  #
+# data for a player in the server. All of      #
+# these informations are crucial and can't be  #
+# delete at the risk to cause errors.          #
+# --                                        -- #
+# info: none == null                           #
+# >>                                        << #
+# -------------- Special String -------------- #
+# '%player%' : The truth name of the player    #
+# '%nickname%' : The nickname of the player    #
+# '%uuid%' : The player's Unique Id            #
+# '%job%' : The job's name of the player       #
+# '%prefix%' : The custom prefix of the player #
+# '%server%' : The server's name               #
+# >>                                        << #
+# ---------------- END HEADER ---------------- #
+version: "1.2"
+player:
+  name: '%player%'
+  uuid: '%uuid%'
+  info:
+    connection:
+      first: null
+      last: null
+  profile: {}
+  config:
+    lang: FR_fr
+    musicEnabled: true
+    particleLevel: Normal #unused
+    profilePerDefault: none

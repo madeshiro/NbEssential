@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="citizensapi">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../API/citizensapi.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="http://jd.citizensnpcs.co/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

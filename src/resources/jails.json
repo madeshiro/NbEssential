@@ -1,0 +1,25 @@
+{
+  "version": [1,2,0,1],
+
+  "jails": {
+    "%name%": {
+      "displayName": "%disp%",
+      "locations": [
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": 0,
+          "yaw": 0,
+          "chest": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "pitch": 0,
+            "yaw": 0
+          }
+        }
+      ]
+    }
+  }
+}

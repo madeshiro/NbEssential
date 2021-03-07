@@ -1,0 +1,28 @@
+# ------------------------- Header ------------------------- #
+# NbEssential - Jail file                                    #
+# Format: Yaml                                               #
+# Version: 1.2                                               #
+# >>                                                      << #
+# ----------------------- Information ---------------------- #
+# This file is the warp's file which contains data           #
+# concerning the warp system of NbEssential at package       #
+# nb.essential.essentials.warp                               #
+# >>                                                      << #
+# --------------------- Special String --------------------- #
+# '%player%' : The truth name of the concerned player        #
+# '%nickname%' : The nickname of the concerned player        #
+# '%prefix%' : The player prefix rank                        #
+# '%server%' : The server's name                             #
+# '%uuid%' : The concerned player uuid                       #
+# '%job%' : The concerned player job name                    #
+# >>                                                      << #
+# ----------------------- END HEADER ----------------------- #
+version: "1.2"
+warps: {}
+# example:
+#   x: 0.0
+#   y: 64.0
+#   z: 120.0
+#   pitch: 0
+#   yaw: 90
+#   world: "world"

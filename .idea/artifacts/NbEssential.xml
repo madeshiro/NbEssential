@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="NbEssential">
+    <output-path>$PROJECT_DIR$/out/artifacts/NbEssential</output-path>
+    <root id="archive" name="NbEssential.jar">
+      <element id="module-output" name="NbEssential" />
+      <element id="library" level="project" name="jMdParser" />
+    </root>
+  </artifact>
+</component>

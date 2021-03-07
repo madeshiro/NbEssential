@@ -1,0 +1,123 @@
+{
+  "__comment" : "%arg{num}% represents the special string replaced by the command when sending the message",
+  "s:c:invalid_args_send" : {
+    "en_en" : "Invalid arguments sended !",
+    "fr_fr" : "Mauvais arguments envoyés !"
+  },
+  "s:c:waiting_player_sender" : {
+    "en_en" : "This command cannot be executed by a Console or Command block !",
+    "fr_fr" : "Cette commande ne peut être éxécutée par la console ou un commande block !"
+  },
+  "s:c:waiting_console_sender" : {
+    "en_en" : "This command cannot be executed by a player !",
+    "fr_fr" : "Cette commande ne peut être éxécutée par un joueur !"
+  },
+  "s:c:invalid_args_length" : {
+    "en_en" : "Invalid numbers of arguments sended !",
+    "fr_fr" : "Nombres d'arguments envoyés invalides !"
+  },
+  "s:c:back:back_fail_noloc" : {
+    "en_en" : "No previous localisation found...",
+    "fr_fr" : "Aucune précédente localisation trouvée..."
+  },
+  "s:c:back:back_success" : {
+    "en_en" : "Teleportation to your previous location",
+    "fr_fr" : "Téléporation à votre précédente localisation"
+  },
+  "s:c:player_not_found" : {
+    "en_en" : "§ePlayer '§9%arg{0}%§e' wasn't found",
+    "fr_fr" : "§eLe joueur '§9%arg{0}%§e' est introuvable"
+  },
+  "s:c:cbreplace:cbr_help": {
+    "en_en" : "§eModify command blocks string content using the OpStick selection mode",
+    "fr_fr" : "§eModifier le contenu d'un ou plusieurs commandes blocks à l'aide de l'OpStick"
+  },
+  "s:c:cbreplace:zconfirm_succeed": {
+    "en_en" : "§eThe zone has been defined successfuly ! The replacement command is now available.",
+    "fr_fr" : "§eLa zone a été défini correctement ! La commande de remplacement est maintenant utilisable."
+  },
+  "s:c:cbreplace:zconfirm_fail": {
+    "en_en" : "§cFail to define the zone ! Have you defined two points (left and right click) ?",
+    "fr_fr" : "§cLa zone n'a pas pu être défini ! Avez-vous bien défini la zone avec deux points (clique droit et gauche) ?"
+  },
+  "s:c:cbreplace:clear" : {
+    "en_en" : "Your selection has been cleared !",
+    "fr_fr" : "Votre sélection a été effacée !"
+  },
+  "s:c:cbreplace:already_working" : {
+    "en_en": "The replacement command has been already triggered... please follow previous instruction.",
+    "fr_fr": "La commande de remplacement a déjà été activée... merci de suivre les instructions précédement donnéees."
+  },
+  "s:c:cbreplace:step_1": {
+    "en_en": "Write down the sentence to replace:",
+    "fr_fr": "Ecrivez la phrase à remplacer:"
+  },
+  "s:c:cbreplace:step_2": {
+    "en_en": "Write down the sentence to put instead:",
+    "fr_fr": "Ecrivez la phrase à mettre à la place:"
+  },
+  "s:c:cbreplace:replace_fail": {
+    "en_en" : "The replacement failed ! Have you missed a step ?",
+    "fr_fr" : "Le remplacement a échoué ! Avez-vous manqué une étape ?"
+  },
+  "s:c:cbreplace:change_done": {
+    "en_en": "Replacement done !",
+    "fr_fr": "Le remplacement a été effectué !"
+  },
+  "s:c:fly:fly_help" : {
+    "en_en" : "Switches your fly ability",
+    "fr_fr" : "Changez votre capacité à voler"
+  },
+  "s:c:fly:change_fly_mode" : {
+    "en_en" : "Changes your fly ability to %arg{0}%",
+    "fr_fr" : "Votre capacité de vol a été changé."
+  },
+  "s:c:fly:change_fly_mode_other" : {
+    "en_en" : "Fly ability of %arg{0}% has been changed to %arg{1}%",
+    "fr_fr" : "La capacité de vol de %arg{0}% a été changé (%arg{1}%)"
+  },
+  "s:c:nb:nb_help": {
+    "en_en": "Save or reload NbEssential plugin or use advanced operator tools.",
+    "fr_fr": "Sauvegarder ou recharger le plugin ou utiliser des fonction avancées pour opérateurs."
+  },
+  "s:c:nb:nbsecurity_help": {
+    "en_en": "Enable or disable the NbEssential security mode (safe-mode)",
+    "fr_fr": "Activer ou desactiver le mode sans échec du plugin"
+  },
+  "s:c:nb:reload_succeed": {
+    "en_en" : "The plugin has been successfuly reloaded !",
+    "fr_fr" : "Le plugin a été correctement rechargé !"
+  },
+  "s:c:nb:reload_fail": {
+    "en_en": "§cAn error occured when reloading the plugin !",
+    "fr_fr": "§cUne erreur est survenue en rechargeant le plugin !"
+  },
+  "s:c:nb:save_succeed": {
+    "en_en": "The plugin has been saved !",
+    "fr_fr": "Le plugin a été sauvegardé !"
+  },
+  "s:c:nb:save_fail": {
+    "en_en": "§cAn error occured when saving the plugin !",
+    "fr_fr": "§cUne erreur est survenue en sauvegardant le plugin !"
+  },
+  "s:c:nb:nb_stick_wnbplayer": {
+    "en_en": "§cWaiting an instanciate player [type=NbPlayer]",
+    "fr_fr": "§cLa commande ne peut fonctionner qu'avec des joueurs instanciés par le plugin [type=NbPlayer]"
+  },
+  "s:c:speed:speed_help" : {
+    "en_en" : "Changes moving speed. Float accepted from 0 to 10",
+    "fr_fr" : "Change votre vitesse de déplacement. Décimal de 0 à 10"
+  },
+  "s:c:speed:player_change_speed" : {
+    "en_en" : "Speed changed to §a%arg{0}%",
+    "fr_fr" : "Vitesse changée à §a%arg{0}%"
+  },
+  "s:c:stick:streetlight_set_meta" : {
+    "en_en" : "§eDefines streetlight as '§9%value%§e' on",
+    "fr_fr" : "§eDefinit le lampadaire en mode '§9%value%§e'"
+  },
+  "s:c:nick:change_success": {
+    "en_en": "Your new nickname is '%arg{0}%§f'",
+    "fr_fr": "Votre nouveau surnom est '%arg{0}%§f'"
+  }
+}

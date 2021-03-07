@@ -1,0 +1,299 @@
+{
+  "version": [1,2,0,1],
+  "defaults": {
+    "realm": {
+      "displayName": "A world",
+      "musics": [],
+      "display": {
+        "playerList": {
+          "header": null,
+          "footer": null
+        },
+        "title": null,
+        "subtitle": null,
+        "actionbar": null
+      },
+      "rules": {
+        "player": {
+          "interract": {
+            "auth": true,
+            "except": []
+          },
+          "breakblock": {
+            "auth": true,
+            "except": []
+          },
+          "enter": {
+            "auth": true,
+            "except": []
+          },
+          "exit": {
+            "auth": true,
+            "except": []
+          },
+          "enderpearl": {
+            "auth": true,
+            "except": []
+          }
+        },
+        "jobzone": false,
+        "pvp": true,
+        "pve": true,
+        "tnt": {
+          "block-detonation": true,
+          "block-damage": true,
+          "player-damage": true
+        },
+        "mobs": {
+          "spawn": false,
+          "grief": false
+        },
+        "nature": {
+          "fire-propagation": true,
+          "plants-grow": true,
+          "always-raining": false,
+          "always-thundering": false
+        }
+      }
+    },
+    "area": {
+      "displayName" : "An area",
+      "musics": [],
+      "coordinates": [],
+      "display": {
+        "playerList": {
+          "header": null,
+          "footer": null
+        },
+        "title" : null,
+        "subtitle": null,
+        "actionbar": null
+      },
+      "rules": {
+        "player": {
+          "interract": {
+            "auth": true,
+            "except": []
+          },
+          "breakblock": {
+            "auth": true,
+            "except": []
+          },
+          "enter": {
+            "auth": true,
+            "except": []
+          },
+          "exit": {
+            "auth": true,
+            "except": []
+          },
+          "enderpearl": {
+            "auth": true,
+            "except": []
+          }
+        },
+        "jobzone": false,
+        "pvp": true,
+        "pve": true,
+        "tnt": {
+          "block-detonation": true,
+          "block-damage": true,
+          "player-damage": true
+        },
+        "mobs": {
+          "spawn": true,
+          "grief": false
+        },
+        "nature": {
+          "firePropagation": true,
+          "plantsGrow": true,
+          "alwaysRaining": false,
+          "alwaysThundering": false
+        }
+      },
+      "significiance": 0
+    },
+    "house": {
+      "displayName" : "A house",
+      "coordinates": [],
+      "musics": [],
+      "owner": null,
+      "partowner": [],
+      "price": 10.0,
+      "display": {
+        "playerList": {
+          "header": null,
+          "footer": null
+        },
+        "title" : null,
+        "subtitle": null,
+        "actionbar": null
+      },
+      "rules": {
+        "player": {
+          "interract": {
+            "auth": true,
+            "except": []
+          },
+          "breakblock": {
+            "auth": true,
+            "except": []
+          },
+          "enter": {
+            "auth": true,
+            "except": []
+          },
+          "exit": {
+            "auth": true,
+            "except": []
+          },
+          "enderpearl": {
+            "auth": true,
+            "except": []
+          }
+        },
+        "jobzone": false,
+        "pvp": true,
+        "pve": true,
+        "tnt": {
+          "block-detonation": true,
+          "block-damage": true,
+          "player-damage": true
+        },
+        "mobs": {
+          "spawn": false,
+          "grief": false
+        },
+        "nature": {
+          "fire-propagation": true,
+          "plants-grow": true,
+          "always-raining": false,
+          "always-thundering": false
+        }
+      },
+      "significiance": 1
+    },
+    "market": {
+      "displayName" : "A market",
+      "coordinates": [],
+      "musics": [],
+      "owner": null,
+      "partowner": [],
+      "price": 10.0,
+      "display": {
+        "playerList": {
+          "header": null,
+          "footer": null
+        },
+        "title" : null,
+        "subtitle": null,
+        "actionbar": null
+      },
+      "rules": {
+        "player": {
+          "interract": {
+            "auth": true,
+            "except": []
+          },
+          "breakblock": {
+            "auth": true,
+            "except": []
+          },
+          "enter": {
+            "auth": true,
+            "except": []
+          },
+          "exit": {
+            "auth": true,
+            "except": []
+          },
+          "enderpearl": {
+            "auth": true,
+            "except": []
+          }
+        },
+        "jobzone": false,
+        "pvp": true,
+        "pve": true,
+        "tnt": {
+          "block-detonation": true,
+          "block-damage": true,
+          "player-damage": true
+        },
+        "mobs": {
+          "spawn": false,
+          "grief": false
+        },
+        "nature": {
+          "fire-propagation": true,
+          "plants-grow": true,
+          "always-raining": false,
+          "always-thundering": false
+        }
+      },
+      "significiance": 1
+    },
+    "dungeon": {
+      "displayName" : "A dungeon",
+      "coordinates": [],
+      "musics": [],
+      "display": {
+        "playerList": {
+          "header": null,
+          "footer": null
+        },
+        "title" : null,
+        "subtitle": null,
+        "actionbar": null
+      },
+      "rules": {
+        "player": {
+          "interract": {
+            "auth": true,
+            "except": []
+          },
+          "breakblock": {
+            "auth": true,
+            "except": []
+          },
+          "enter": {
+            "auth": true,
+            "except": []
+          },
+          "exit": {
+            "auth": true,
+            "except": []
+          },
+          "enderpearl": {
+            "auth": true,
+            "except": []
+          }
+        },
+        "jobzone": false,
+        "pvp": true,
+        "pve": true,
+        "tnt": {
+          "block-detonation": true,
+          "block-damage": true,
+          "player-damage": true
+        },
+        "mobs": {
+          "spawn": false,
+          "grief": false
+        },
+        "nature": {
+          "fire-propagation": true,
+          "plants-grow": true,
+          "always-raining": false,
+          "always-thundering": false
+        }
+      },
+      "significiance": 1
+    }
+  },
+  "realms": {},
+  "areas": {},
+  "houses": {},
+  "markets": {},
+  "dungeons": {}
+}

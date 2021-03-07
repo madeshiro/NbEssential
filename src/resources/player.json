@@ -1,0 +1,14 @@
+{
+  "version": [1,2,0,1],
+  "name": "%player%",
+  "uuid": "%uuid%",
+  "info" : {
+    "connection" : {
+      "first": null,
+      "last": null
+    },
+    "ingame-music": true
+  },
+
+  "profiles" : {}
+}

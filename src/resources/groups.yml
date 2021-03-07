@@ -1,0 +1,30 @@
+# ------------------------- Header ------------------------- #
+# NbEssential - Groups file                                  #
+# Format: Yaml                                               #
+# Version: 1.2                                               #
+# >>                                                      << #
+# ----------------------- Information ---------------------- #
+# This file is the Plugin's group permission file. It        #
+# contains the necessary data to configure and manage the    #
+# permissions and groups using it.                           #
+# >>                                                      << #
+# --------------------- Special String --------------------- #
+# '%player%' : The truth name of the concerned player        #
+# '%nickname%' : The nickname of the concerned player        #
+# '%prefix%' : The player prefix rank                        #
+# '%server%' : The server's name                             #
+# '%uuid%' : The concerned player uuid                       #
+# '%job%' : The concerned player job name                    #
+# '%group%' : The name of the concerned group                #
+# '%perm%' : Permission                                      #
+# >>                                                      << #
+# ----------------------- END HEADER ----------------------- #
+version: "1.2"
+groups:
+  default:
+    prefix: '&7[&8default&7]'
+    inherit: ''
+    members: []
+    permissions: []
+    forbiddens: []
+

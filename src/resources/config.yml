@@ -1,0 +1,85 @@
+# ------------------------- Header ------------------------- #
+# NbEssential - Config file                                  #
+# Format: Yaml                                               #
+# Version: 1.2                                               #
+# >>                                                      << #
+# ----------------------- Information ---------------------- #
+# This file is the Plugin's configuration file. It contains  #
+# the necessary data to configure and manage the plugin as   #
+# you wants                                                  #
+# >>                                                      << #
+# --------------------- Special String --------------------- #
+# '%player%' : The truth name of the concerned player        #
+# '%nickname%' : The nickname of the concerned player        #
+# '%prefix%' : The player prefix rank                        #
+# '%server%' : The server's name                             #
+# '%uuid%' : The concerned player uuid                       #
+# >>                                                      << #
+# --------------- Special features's strings --------------- #
+# '%zone%' : Zone's name where a player is (for tablist)     #
+# '%job%' : The concerned player job name (Job system)       #
+# '%jsonapi%' : JSONAPI Status [running, stop, error...]     #
+# >>                                                      << #
+# ----------------------- END HEADER ----------------------- #
+version: "1.2"
+server:
+  name: Unknown
+  language: en_en
+  maintenance:
+    enabled: false
+    kickMsg: 'The server is under maintenance, sorry for the inconvenience...'
+    authorized:
+    - '@whitelist'
+    - '@op'
+  motd: 'A Minecraft server'
+  tablist:
+    header: 'Welcome in the server &9%server%'
+    footer: '\nThis is my true form !'
+    displayPrefix: true
+  music: true
+  zone: true
+  chat:
+    format: '%prefix% &f%1$s&7 »&f %2$s'
+    permission: nbessential.talk
+  external:
+    port: 30000
+    jsonapi:
+      password: '12345 is a bad password'
+      enabled: true
+    cloud:
+      enabled: true
+      content: 'plugins/NbEssential/cloud'
+player:
+  afkConfig:
+    inactivityTime: 180
+    disconnectTime: 360
+    displayAfkMessage: false
+  defaultPermissionGroup: default
+  defaultProfile:
+    nickname: {} # first, last
+    prefix: ''
+    operator: false
+    money: 0
+    state:
+      session:
+        location: {}
+        gamemode: 0
+        inventory: "" # special inventory string base64
+      isFainted: false
+      isJailed:
+        status: false
+        jailName: none
+    job: {}
+      # name:
+      # level:
+    location:
+      last: {}
+      spawn: {}
+    properties:
+      house: []
+      market: []
+      zone: []
+    permission:
+      permissions: []
+      forbiddens: []
+      group: default

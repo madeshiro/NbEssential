@@ -1,0 +1,73 @@
+{
+  "version": [1,2,0,1],
+  "server": {
+    "name": "New Beginning",
+    "maintenance": {
+      "enabled": false,
+      "kickMsg": "The server is under maintenance, sorry for the inconvenience",
+      "authorized": [
+        "@whitelist",
+        "@op"
+      ]
+    },
+    "motd": "Welcome in my Minecraft Server",
+    "chat": {
+      "format": "%prefix% &f%1$s&7 »&f %2$s",
+      "permission": "nbessential.talk"
+    },
+
+    "external": {
+      "port": 31500,
+      "jsonapi": true,
+      "cloud": true,
+
+      "content": "plugins/NbEssential/cloud"
+    }
+  },
+  "player": {
+    "defaultProfile": {
+      "nickname": "",
+      "prefix": null,
+      "operator": false,
+      "money": 0.0,
+      "save": {
+        "location": {},
+        "gamemode": "survival",
+        "inventory": ""
+      },
+      "state": {
+        "isFainted": false,
+        "isJailed": {
+          "value": false,
+          "jail": {},
+          "duration": 0
+        },
+        "nbsl" : {
+          "values" : {}
+        }
+      },
+      "quest": {},
+      "job": {
+        "type": null,
+        "level": 0,
+        "data": []
+      },
+      "location": {
+        "spawn": {},
+        "last": {}
+      },
+      "domains": {
+        "house": [],
+        "market": [],
+        "zone": []
+      },
+      "groupmanager": {
+        "permissions": [
+          "nbessential.talk"
+        ],
+        "forbiddens": [],
+        "group": "default"
+      }
+    }
+  }
+}

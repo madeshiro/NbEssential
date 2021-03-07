@@ -1,0 +1,61 @@
+{
+  "s:kick_profile" : {
+    "__comment" : "accept the 'player' replaceable string",
+    "en_en" : "You have been disconnect from your profile.\nThanks for playing in our server; See you soon !",
+    "fr_fr" : "Vous avez été deconnecté de votre profile.\n Merci d'avoir joué sur notre serveur; A bientôt !"
+  },
+  "s:title_welcome" : {
+    "__comment" : "accept the 'nbplayer' replaceable string",
+    "en_en" : "Welcome on §9New Beginning",
+    "fr_fr" : "Bienvenue sur §9New Beginning"
+  },
+  "s:subtitle_welcome" : {
+    "__comment" : "accept the 'nbplayer' replaceable string",
+    "en_en" : "§3New start, New life !",
+    "fr_fr" : "§3Nouveau départ, Nouvelle vie !"
+  },
+  "s:join_create_profile_error" : {
+    "__comment" : "accept the 'player' replaceable string",
+    "en_en" : "Sorry but an error occured when trying to create your data... \nPlease try later...",
+    "fr_fr" : "Désolé mais une erreur est survenue en essayant de créer vos données... \nVeuillez réessayer plus tard..."
+  },
+  "s:first_join_connect" : {
+    "__comment" : "accept the 'player' replaceable string",
+    "en_en" : "A new player join the server ! Wish him/her welcome :)",
+    "fr_fr" : "Un nouveau joueur a rejoint le serveur ! Souhaitez-lui la bienvenue :)"
+  },
+  "s:first_join_comer" : {
+    "__comment" : "accept the 'player' replaceable string",
+    "en_en" : "Welcome in %server%, %player%",
+    "fr_fr" : "Bienvenue sur %server%, %player%"
+  },
+  "s:gamemode_no_profile" : {
+    "__comment" : "accept the 'player' replaceable string",
+    "en_en" : "You can't change your gamemode because you haven't choose your profile",
+    "fr_fr" : "Vous ne pouvez pas changez de gamemode parce que vous n'avez pas choisi de profile"
+  },
+  "s:choose_profile" : {
+    "__comment" : "accept the 'player' replaceable string",
+    "en_en": "§7Please, choose your profile by doing §9/login §6<profile> §7in order to play.\nAvailable profile (click to choose):",
+    "fr_fr": "§7Veuillez choisir votre profile en faisant §9/login §6<profile> §7afin de pouvoir jouer.\nProfile disponible (clickez pour choisir):"
+  },
+  "s:join_profile_error" : {
+    "__comment" : "accept the 'player' replaceable string",
+    "en_en" : "§cAn error occured when trying to instanciate your profile !\n§4%error%",
+    "fr_fr" : "§cUne erreur est survenue en essayant d'instancier votre profile !\n§4%error%"
+  },
+  "s:join_profile" : {
+    "__comment" : "accept the 'nbplayer' replaceable string",
+    "en_en" : "§7Have a good game on &9%server% &0%player% &7!",
+    "fr_fr" : "§7Bon jeu sur &9%server% &0%player% &7!"
+  },
+  "s:command_no_permission" : {
+    "__comment" : "accept the 'player' replaceable string",
+    "en_en" : "You doesn't have the permission to execute this command !",
+    "fr_fr" : "Vous n'avez pas la permission pour executer cette commande !"
+  },
+  "s:unassigned_player_exception" : {
+    "en_en" : "You must be instanciated as a 'NbPlayer' to use this command !",
+    "fr_fr" : "Vous devez être instancié en tant que 'NbPlayer' afin d'utiliser cette commande !"
+  }
+}

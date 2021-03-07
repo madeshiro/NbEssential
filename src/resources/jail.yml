@@ -1,0 +1,31 @@
+# ------------------------- Header ------------------------- #
+# NbEssential - Jail file                                    #
+# Format: Yaml                                               #
+# Version: 1.2                                               #
+# >>                                                      << #
+# ----------------------- Information ---------------------- #
+# This file is the jail's file which contains data           #
+# concerning the jail system of NbEssential at package       #
+# nb.essential.essentials.jail                               #
+# >>                                                      << #
+# --------------------- Special String --------------------- #
+# '%player%' : The truth name of the concerned player        #
+# '%nickname%' : The nickname of the concerned player        #
+# '%prefix%' : The player prefix rank                        #
+# '%server%' : The server's name                             #
+# '%uuid%' : The concerned player uuid                       #
+# '%job%' : The concerned player job name                    #
+# >>                                                      << #
+# ----------------------- END HEADER ----------------------- #
+version: "1.2"
+jails: {}
+# example:
+#   displayName: example
+#   location: {} # x, y, z, pitch, yaw, world
+#   additionalTag: {}
+    # example >> town: my_town
+    # A tag defined a special field where the jail is located
+    # useful to jail a player in a specific town for example
+    # use in command to jail a player :
+    # - /jail <player> Tag=[name='TheName']
+    # - /jail <player> Tag=[town='my_town'] // it works
